@@ -55,9 +55,9 @@ if (
             utilization_df
         )
 
-        books_report = books_vs_challan(
-            books_df,
-            challan_df
+        books_report, books_summary = books_vs_challan(
+    books_df,
+    challan_df
         )
 
         duplicate_report = find_duplicate_challans(
