@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-from modules.challan_reco import challan_reconciliation
-from modules.books_reco import books_vs_challan
-from modules.duplicate_check import find_duplicate_challans
-from modules.aging import challan_aging_report
+from challan_reco import challan_reconciliation
+from books_reco import books_vs_challan
+from duplicate_check import find_duplicate_challans
+from aging import challan_aging_report
 
 st.set_page_config(
     page_title="TDS Challan Reconciliation Tool",
